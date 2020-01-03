@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" layout:decorate="jt/layout">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+
+    <title>注销成功</title>
+    <link href="../../static/css/cas.css" rel="stylesheet" th:remove="tag" />
+</head>
+
+<body>
+<main role="main" class="container">
+    <div layout:fragment="content">
+        <div class="alert alert-success">
+            <h2>注销成功</h2>
+            <p>您已经成功退出文物信息系统统一登录认证系统，谢谢使用！</p>
+            <p>出于安全考虑，请关闭您的浏览器。 您也可以再次<a href="login">登录</a>使用</p>
+        </div>
+    </div>
+</main>
+</body>
+</html>
